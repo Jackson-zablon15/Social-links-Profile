@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      box-sizing: border-box;
+      padding: 0px;
+      margin: 0px;
+      background-color: hsl(0, 0%, 8%);
+      font-family: Inter;
+    }
+    .container{
+      position: absolute;
+      top: 5%;
+      left: 19%;
+      background-color: hsl(0, 0%, 12%);
+      width: 328px;
+      height: 581px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    img{
+      position: relative;
+      top: 24px;
+      border-radius: 50%;
+      width: 90px;
+    }
+    h1{
+      font-weight: 700;
+      color: hsl(0, 0%, 100%);
+      position: relative;
+      top: 32px;
+    }
+    #first{
+      font-size: 14px;
+      position: relative;
+      top: 16px;
+      font-weight: 600;
+      color: hsl(75, 94%, 57%);
+    }
+    #last{
+      font-size: 14px;
+      font-weight: 400;
+      color: hsl(0, 0%, 100%);
+      position: relative;
+      top: 34px;
+    }
+    .btns{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+      position: relative;
+      top: 34px;
+    }
+    button{
+      background-color: hsl(0, 0%, 20%);
+      color: hsl(0, 0%, 100%);
+      font-weight: 600;
+      text-align: center;
+      border: none;
+      width: 282px;
+      height: 46px;
+      border-radius: 5px;
+    }
+    button:hover{
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+    }
+    @media only screen and (min-width: 600px) {
+    .container{
+      left: 38%;
+    }
+  }
+  </style>
+</head>
+<body>
+<main>
+  <section>
+    <div class="container">
+      <div class="top">
+        <img src="/assets/images/avatar-jessica.jpeg" alt="jessica">
+        <h1>Jessica Randall</h1>
+        <p id="first">London, United Kingdom</p>
+        <p id="last">"Front-end developer and avid reaader."</p>
+      </div>
+      <div class="btns">
+        <button>GitHub</button>
+        <button>Frontend Mentor</button>
+        <button>LinkedIn</button>
+        <button>Twitter</button>
+        <button>Instagram</button>
+      </div>
+    </div>
+  </section>
+</main>  
+</body>
+</html>
